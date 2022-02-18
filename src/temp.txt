@@ -1,0 +1,44 @@
+const Home = () => {
+  const [catgories, setCategories] = useState([]);
+  const [departments, setDepartments]=useState([]);
+  // side effects
+  useEffect(() => {
+    // get categories
+    fetch("https://fakestoreapi.com/products/categories")
+      .then((response) => response.json())
+      .then((data) => setCategories(data));
+  }, []);
+  useEffect(()=>{
+    fetch("https://collectionapi.metmuseum.org/public/collection/v1/departments")
+    .then((response)=>response.jason())
+    .then((data)=>setDepartments(data));
+  })
+  return (
+    <div>
+      <h2>Categories</h2>
+      {catgories.length === 0 && <div>Loading....</div>}
+      {catgories.length > 0 && (
+        <ul>
+          {catgories.map((category) => {
+            return (
+              <li key={category}>
+                <Link to={`/product/${category}`}>{category}</Link>
+              </li>
+            );
+          })}
+        </ul>
+      )}
+      {departments.length > 0 && (
+        <ul>
+          {departments.map((department) => {
+            return (
+              <li key={department.desplayName}>
+                gg
+              </li>
+            );
+          })}
+        </ul>
+      )}
+    </div>
+  );
+};

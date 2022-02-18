@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/simple-market-place/static/css/main.fa90a1f8.css",
+    "main.js": "/simple-market-place/static/js/main.ab8b63ef.js",
+    "index.html": "/simple-market-place/index.html",
+    "main.fa90a1f8.css.map": "/simple-market-place/static/css/main.fa90a1f8.css.map",
+    "main.ab8b63ef.js.map": "/simple-market-place/static/js/main.ab8b63ef.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fa90a1f8.css",
+    "static/js/main.ab8b63ef.js"
+  ]
+}

@@ -1,0 +1,19 @@
+.rating-whole{
+    display: flex;
+}
+.rating-render{
+    flex: 1;
+    max-width: 20%;
+}
+.rating-render:first-child{
+    display: inherit;
+    max-width: 10%;
+    align-items: center;
+}
+.rating-render:nth-child(3){
+    display: inherit;
+    align-items: center;
+}
+.all-list{
+    display: grid;
+}
