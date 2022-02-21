@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/simple-market-place/static/css/main.bed0bb02.css",
-    "main.js": "/simple-market-place/static/js/main.9a3539c2.js",
+    "main.js": "/simple-market-place/static/js/main.29f62df4.js",
     "index.html": "/simple-market-place/index.html",
     "main.bed0bb02.css.map": "/simple-market-place/static/css/main.bed0bb02.css.map",
-    "main.9a3539c2.js.map": "/simple-market-place/static/js/main.9a3539c2.js.map"
+    "main.29f62df4.js.map": "/simple-market-place/static/js/main.29f62df4.js.map"
   },
   "entrypoints": [
     "static/css/main.bed0bb02.css",
-    "static/js/main.9a3539c2.js"
+    "static/js/main.29f62df4.js"
   ]
 }
