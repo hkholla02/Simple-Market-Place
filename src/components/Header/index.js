@@ -28,7 +28,7 @@ const Header = () => {
               </li>
               <li>
                 <Link to={`/product/${"jewelery"}`}>
-                  JEWELERY
+                  Jewelery
                 </Link>
               </li>
               <li>
